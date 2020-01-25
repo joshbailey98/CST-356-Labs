@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Students</title>
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<script src="js/students.js"></script>
+</head>
+<body>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="login.html">Logoff</a>
+    </div>
+    <br/>
+    <table>
+        <thead>
+            <tr>
+                <th class="heading" colspan="2">Students</th>
+            </tr>
+            <tr>
+                <th>Student ID</th>
+                <th>Email Address</th>
+            </tr>
+        </thead>
+        <tbody id="student-list"></tbody>
+    </table>
+<script>populateStudentTable()</script>
+</body>
+</html>
